@@ -1,2 +1,3 @@
 class Crag < ApplicationRecord
+
 end
