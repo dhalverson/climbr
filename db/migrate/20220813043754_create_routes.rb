@@ -8,6 +8,8 @@ class CreateRoutes < ActiveRecord::Migration[7.0]
       t.boolean :tick
 
       t.timestamps
+      t.datetime :updated_at
+      t.datetime :created_at
     end
   end
 end

@@ -7,6 +7,8 @@ class CreateCrags < ActiveRecord::Migration[7.0]
       t.string :description
 
       t.timestamps
+      t.datetime :updated_at
+      t.datetime :created_at
     end
   end
 end
