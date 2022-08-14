@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-Rspec.describe Route, type: :model do
+RSpec.describe Route, type: :model do
   describe 'validations' do
     it { should validate_presence_of :title }
   end
