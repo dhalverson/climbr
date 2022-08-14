@@ -1,3 +1,4 @@
+require 'rails_helper'
 require 'calculator'
 
 Rspec.describe Calculator do
